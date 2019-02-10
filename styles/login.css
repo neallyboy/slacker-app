@@ -1,0 +1,45 @@
+* {
+  box-sizing : border-box;
+  font-family : 'Montserrat', sans-serif;
+}
+
+aside {
+  width : 50%;
+  display : inline-block;
+}
+
+main {
+  width : 48%;
+  vertical-align : top;
+  padding-top : 170px;
+  margin: 150px auto;
+  display: inline-block;
+}
+
+aside img {
+  width : 80%;
+  height : 800px;
+  margin: 150px auto;
+  border-radius: 25px;
+}
+
+section h1 {
+  width : 100%;
+  font-size : 50pt;
+  font-weight : normal;
+  color : #7429aa;
+}
+
+section h2 {
+  width : 100%;
+  font-size : 30pt;
+  font-weight : normal;
+  color : #7429aa;
+}
+
+section h3 {
+  width : 100%;
+  font-size : 20pt;
+  font-weight : normal;
+  color : #5db5ba;
+}

@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+img {
+  border-radius: 50%;
+  width: 320px;
+  margin:25px;
+}
+aside {
+  float:left;
+  margin:35px;
+  width: 31%; 
+}
+h1 {
+  color:#471c9c;
+  font-weight: normal;
+  padding-top:30px;
+  margin-left:430px;
+  margin-bottom:.3em;
+}
+.account {
+  display:inline-block;
+  color:#471c9c;
+  padding-top:10px;
+  margin-top:-15px;
+  font-weight: normal;
+  margin-left:20px;
+}
+#user-handle{
+  margin-right:150px; 
+}
+#user-description {
+  color:#858b9b;
+  line-height:1.5;
+  margin-top:5px;
+}
+.contact {
+  color:#471c9c;
+  display:inline-block;
+  width:100px;
+  padding:8px;
+}
+p {
+  color:black;
+  margin-left:430px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #471c9c;
+    margin-left: 430px;
+    padding: 0;
+}
