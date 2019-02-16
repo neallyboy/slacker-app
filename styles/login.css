@@ -11,15 +11,12 @@ aside {
 main {
   width : 48%;
   vertical-align : top;
-  padding-top : 170px;
-  margin: 150px auto;
   display: inline-block;
 }
 
 aside img {
   width : 80%;
-  height : 800px;
-  margin: 150px auto;
+  height : auto;
   border-radius: 25px;
 }
 
@@ -42,4 +39,55 @@ section h3 {
   font-size : 20pt;
   font-weight : normal;
   color : #5db5ba;
+}
+
+@media (max-width: 768px) {
+  
+  aside {
+    width : 100%;
+  }
+  
+  main {
+    width : 100%;
+    margin: 0%;
+  }
+  
+  aside img {
+    width : 60%;
+    height : auto;
+  }
+
+  section h1 {
+    width : 100%;
+    font-size : 30pt;
+  }
+
+  section h2 {
+    width : 100%;
+    font-size : 20pt;
+  }
+
+  section h3 {
+    width : 100%;
+    font-size : 10pt;
+  }
+
+  #username {
+    display: block;
+  }
+
+  #password {
+    display: block;
+  }
+
+  #login {
+    display: block;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline: none;
+    margin : auto;
+  }
 }

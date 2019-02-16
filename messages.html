@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+   
+<html>
+   	
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css">		
+
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
+		<style>
+			* {
+				box-sizing: border-box;
+				font-family: 'Montserrat', sans-serif;
+			}
+			html, body {
+				height : 100%;
+				margin : 0px;
+			}
+
+			aside {
+				vertical-align: top;
+				display :inline-block;
+				width : 10%;
+				height: 100%;
+				background-color: #471da3;				
+			}
+
+			.channel-text{
+				color : white;
+				font-weight: normal;
+				padding: 10px;
+
+			}
+
+			#channel-title {
+				text-align: center;
+				font-weight: bold;
+			}
+
+			main {
+				display :inline-block;
+				width : 89%;
+			}
+
+			.main-section {
+				display :inline-block;
+				width : 85%;		
+				padding : 10px 10px;	
+				height: 100%;
+				margin-top : 2.5rem;
+			}
+
+			div {
+				display :inline-block;
+			}
+
+			#messages-list {
+				margin : auto 0;
+    			height: 35em;
+    			overflow-y: scroll;
+    			border: 1px blue solid;		
+    			padding: 0.2rem 1rem;		
+			}
+
+			.message-row {
+				display: inline-block;
+				width :100%;
+				margin-bottom: 20px;
+			}
+
+			.message-image {
+				display : inline-block;
+				width : 10%;	
+				float : left;
+				min-width: 30px;
+				max-width: 30px;			
+			}
+
+			.message-image img {
+				max-width: 60px;
+			}
+
+			.message-meta-text {
+				display : inline-block;
+				width : 90%;	
+				float : right;	
+				padding : 0.2em 0.2em 0.2em 0.2em;					
+			}				
+
+			.message-text {
+				display : inline-block;
+				width : 100%;	
+				float : left;	
+			}	
+			.message-time {
+				display : inline-block;
+				font-size: 0.8rem;	
+			}				
+	
+			.message-author {
+				display: inline-block;
+				vertical-align: top;				
+				font-weight: bold;	
+				padding : 0.2em 2em 0.2em 0em;
+				width : 5rem;	
+			}		
+
+			.message-box {
+				width : 80%;
+				font-size: 1em;
+				margin : 1em, auto;
+				height : 5em;
+			}		
+
+			.footer-block {
+				vertical-align: bottom;
+				position: fixed;
+				width: 95%;
+				bottom : 2em;
+				height: 5em;
+			}
+
+
+		</style>
+	</head>
+
+	<body>
+		<aside>
+			<article id="user-name" class="channel-text">Neal</article>
+			<article id="channel-title" class="channel-text">Channels</article>
+			<article class="channel-text">Sports</article>
+			<article class="channel-text">Shows</article>
+			<article class="channel-text">Movies</article>
+			<article class="channel-text">Pets</article>
+		</aside>
+		<main>
+		<section class="main-section">
+			<header></header>
+			<nav></nav>			
+			
+			<section id="messages-list">
+
+			</section>
+			<footer>
+				<div class="footer-block">
+						<textarea rows="4" id="message" class="message-box" placeholder="Enter message"></textarea>
+				</div>
+			</footer>
+		</section>
+		</main>
+	</body>
+	<script src="scripts/messages.js"></script>
+</html>
